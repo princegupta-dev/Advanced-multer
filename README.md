@@ -3,7 +3,7 @@
 Many of you might be using multer to store the files uploaded by the user first in your server and then in some cloud to provide atomicity in your web applications. For this you might be using multer or some of you might be uploading the files directly in some cloud storage like Azure Blob or AWS buckets.
 
 When using multer to store files by the user directly in your server, do y'all as backend devs really trust the users? Will the incoming file always be just an image, video, or pdf? What if it is an .exe, .MSI, or .jar? Or if it is so large that it overwhelms your server?
-
+////
 
 
 ## Storage
